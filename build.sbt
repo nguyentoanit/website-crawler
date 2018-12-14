@@ -10,3 +10,6 @@ lazy val root = (project in file(".")).
     name := "website-crawler",
     libraryDependencies += scalaTest % Test
   )
+
+// https://mvnrepository.com/artifact/org.jsoup/jsoup
+libraryDependencies += "org.jsoup" % "jsoup" % "1.11.3"
